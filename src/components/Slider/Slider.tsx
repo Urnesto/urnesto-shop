@@ -3,7 +3,6 @@ import { ReactNode } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-// import "./styles.css";
 
 import { Autoplay } from "swiper/modules";
 
@@ -26,13 +25,13 @@ export const Slider = ({ items, customClass }: IProps) => {
                 }}
                 breakpoints={{
                     0: {
-                        slidesPerView: 1,
+                        slidesPerView: 2,
                     },
                     640: {
-                        slidesPerView: 1,
+                        slidesPerView: 3,
                     },
                     768: {
-                        slidesPerView: 2,
+                        slidesPerView: 3,
                     },
                     1024: {
                         slidesPerView: 3,
