@@ -5,4 +5,6 @@ import pentagon from "./figures/pentagon.svg";
 import star from "./figures/star.svg";
 import bagFantasy from "./bags/bag-fantasy.png";
 import burger from "./icons/burger.svg";
-export { elipse, heptagon, hexagon, star, pentagon, bagFantasy, burger };
+import close from "./icons/close.svg";
+
+export { elipse, heptagon, hexagon, star, pentagon, bagFantasy, burger, close };
