@@ -2,7 +2,6 @@ import { VariantProps, cva } from "class-variance-authority";
 import { HTMLAttributes } from "react";
 import { FC } from "react";
 import { cn } from "../../utils/utils";
-import { bagFantasy } from "../../assets";
 
 interface ICard extends VariantProps<typeof cardVarriants>, HTMLAttributes<HTMLDivElement> {
     title: string,
